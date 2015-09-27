@@ -9,4 +9,6 @@ ADD nginx/global.conf /etc/nginx/conf.d/
 ADD nginx/nginx.conf /etc/nginx/
 ADD website /var/www/html/website
 
+CMD ["nginx"]
+
 EXPOSE 80
